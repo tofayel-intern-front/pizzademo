@@ -1,0 +1,53 @@
+@media (max-width:991px){
+    /*custom css*/
+    .text-content{
+        width: 100%;
+    }
+    .navbar_wrapper .navbar-brand img{
+        height: 3.895rem;
+    }
+    .navbar_wrapper {
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .navbar_wrapper .nav-link{
+        color: var(--black-color);
+        line-height: 1.875rem;
+
+    }
+    .top-banner{
+padding: 9.375rem 0 9.375rem;
+    }
+
+}
+@media (max-width:320px){
+    /*custom css*/
+    .text-content{
+        width: 100%;
+    }
+    .navbar_wrapper .navbar-brand img{
+        height: 3.895rem;
+    }
+    .navbar_wrapper {
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .navbar_wrapper .nav-link{
+        color: var(--black-color);
+        line-height: 1.875rem;
+
+    }
+    .top-banner{
+        height: auto;
+
+    }
+    .navbar-toggler:focus{
+    border: 1px solid black;
+    outline: black;
+    color: #000;
+    right: -150px;
+    
+    
+}
+
+}

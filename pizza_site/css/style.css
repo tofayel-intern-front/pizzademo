@@ -1,0 +1,179 @@
+
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:var(--primary-color) !important ;
+}
+
+:root{
+    --primary-color: #FFC222;
+    --secondery-color:#00a149;
+    --white-color:#fff;
+    --text-color:#b0b0b0;
+    --black-color:#000000;
+    --primary-font:'Roboto', sans-serif;
+    --secondry-font:'Quicksand',sans-serif;
+}
+body{
+    font-family: var(--primary-font);
+    font-size:100% ;
+    font-weight:400 ;
+}
+
+/*----------------custom css design--------------*/
+h1{
+    font-size:58px ;
+    font-weight: 900;
+    margin-bottom:1rem; 
+    color:var(--white-color) ;
+    text-shadow:1px0 6px black;
+}
+h1 span{
+    color: var(--primary-color);
+}
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    font-family: var(--secondry-font);
+    color: var(--secondery-color);
+    text-transform: capitalize;
+}
+h4{
+    font-size: 1.125rem;
+    font-weight:800 ;
+    color: var(--secondery-color);
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+    font-family: var(--secondry-font);
+}
+h5{
+    font-size: 1rem;
+    font-weight:700 ;
+    color: var(--black-color);
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+    font-family: var(--secondry-font);
+}
+p{
+    font-size:1rem ;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: 1px;
+}
+.main-btn{
+    display:inline-block ;
+    padding:14px ;
+    line-height:1.5rem ;
+    background-color:var(--primary-color) ;
+    border:1.7px solid var(--primary-color) ;
+    color:var(--black-color) ;
+    font-size:0.93rem ;
+    font-weight:600 ;
+    text-transform:capitalize ;
+    border-radius:0.5rem ;
+    box-shadow:0px 2px 10px -1px rgb(0 0 0 /19%) ;
+    transition:all .4s ease-out 0s ;
+}
+.main-btn:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+.text-content{
+    width: 70%;
+    margin: auto;
+}
+.navbar_wrapper{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.3s ease-out 0s;
+}
+.navbar_wrapper .nav-item{
+   padding: 0 0.6rem;
+    transition: all 0.4s ease-out linear;
+}
+.navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+.nav-link{
+    font-size:0.935rem;
+    font-weight: 600;
+    color: var(--white-color);
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.nav-link:hover,
+.nav-link:active{
+    color: var(--primary-color) !important;
+}
+
+
+/*===========================
+=============================
+...........Top-banner........
+=============================
+===========================*/
+.top-banner{
+    width: 100%;
+    /*height: 120vh;*/
+    background-image: url(../images/bg/bg-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+}
+.top-banner p{
+color: var(--text-color);
+}
+
+/*===========================
+=============================
+........Top-banner. end ......
+=============================
+===========================*/
+
+/*===========================
+=============================
+........our menu ......
+=============================
+===========================*/
+.our-menu .card{
+    border: none;
+}
+.our-menu .card:hover .cat-title a{
+color: var(--primary-color);
+}
+/*===========================
+=============================
+........our menu end......
+=============================
+===========================*/
+
+
+
+
+.testimonial{
+background-color: var(--secondery-color);
+position: relative;
+}
+.testimonial .carousel-item{
+   
+    margin-top: 3rem;
+   padding: 10rem 0 3.126rem;
+    background-color: var(--black-color);
+ 
+   text-align: center;
+   left: 50px;
+}
+.testimonial .carousel-caption img{
+    max-width: 5rem;
+    border-radius: 50%;
+    padding: 0.3125rem;
+}
